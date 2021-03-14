@@ -16,6 +16,8 @@
 		84C8A68725FD7AC1004EE23D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C8A68525FD7AC1004EE23D /* LaunchScreen.storyboard */; };
 		84C8A69225FD7AC1004EE23D /* assignment_notebook_swift_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8A69125FD7AC1004EE23D /* assignment_notebook_swift_uiTests.swift */; };
 		84C8A69D25FD7AC2004EE23D /* assignment_notebook_swift_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8A69C25FD7AC2004EE23D /* assignment_notebook_swift_uiUITests.swift */; };
+		84C8A6AE25FD8472004EE23D /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8A6AD25FD8472004EE23D /* AssignmentList.swift */; };
+		84C8A6B325FD8593004EE23D /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8A6B225FD8593004EE23D /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		84C8A69825FD7AC1004EE23D /* assignment notebook swift uiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "assignment notebook swift uiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C8A69C25FD7AC2004EE23D /* assignment_notebook_swift_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment_notebook_swift_uiUITests.swift; sourceTree = "<group>"; };
 		84C8A69E25FD7AC2004EE23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C8A6AD25FD8472004EE23D /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
+		84C8A6B225FD8593004EE23D /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				84C8A67725FD7ABD004EE23D /* AppDelegate.swift */,
 				84C8A67925FD7ABD004EE23D /* SceneDelegate.swift */,
 				84C8A67B25FD7ABD004EE23D /* ContentView.swift */,
+				84C8A6B225FD8593004EE23D /* AddView.swift */,
+				84C8A6AD25FD8472004EE23D /* AssignmentList.swift */,
 				84C8A68025FD7AC1004EE23D /* Assets.xcassets */,
 				84C8A68525FD7AC1004EE23D /* LaunchScreen.storyboard */,
 				84C8A68825FD7AC1004EE23D /* Info.plist */,
@@ -269,7 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C8A6AE25FD8472004EE23D /* AssignmentList.swift in Sources */,
 				84C8A67825FD7ABD004EE23D /* AppDelegate.swift in Sources */,
+				84C8A6B325FD8593004EE23D /* AddView.swift in Sources */,
 				84C8A67A25FD7ABD004EE23D /* SceneDelegate.swift in Sources */,
 				84C8A67C25FD7ABD004EE23D /* ContentView.swift in Sources */,
 				84C8A67F25FD7ABD004EE23D /* assignment_notebook_swift_ui.xcdatamodeld in Sources */,
